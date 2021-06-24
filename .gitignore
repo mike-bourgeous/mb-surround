@@ -1,0 +1,14 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+.*.swp
+.*.swo
+/*.flac
+/*.wav
+/spec/examples.txt
+.gdb_history
