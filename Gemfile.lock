@@ -38,9 +38,9 @@ GIT
 
 GIT
   remote: https://github.com/mike-bourgeous/mb-util.git
-  revision: 903e28d6cade1063bec7e1a754367150bbca7d15
+  revision: e083d47981e5930e9abb869d5a85d8fc2f6c620d
   specs:
-    mb-util (0.0.1.usegit)
+    mb-util (0.0.2.usegit)
 
 PATH
   remote: .
@@ -115,7 +115,7 @@ DEPENDENCIES
   mb-sound (>= 0.1.3.usegit)!
   mb-sound-jackffi (>= 0.0.15.usegit)!
   mb-surround!
-  mb-util (>= 0.0.1.usegit)!
+  mb-util (>= 0.0.2.usegit)!
   pry (~> 0.13.1)
   pry-byebug (~> 3.9.0)
   pry-doc (~> 1.1.0)
