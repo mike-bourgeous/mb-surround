@@ -7,14 +7,6 @@ gemspec
 
 gem 'rake', '~> 13.0'
 
-# Interactive command line
-gem 'pry'
-gem 'pry-byebug'
-gem 'pry-doc'
-
-# Testing
-gem 'rspec'
-
 # Dependencies on sibling projects
 gem 'mb-sound', '>= 0.1.3.usegit', github: 'mike-bourgeous/mb-sound.git'
 gem 'mb-geometry', '>= 0.0.1.usegit', github: 'mike-bourgeous/mb-geometry.git'

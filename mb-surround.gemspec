@@ -27,11 +27,17 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'cmath'
-  spec.add_runtime_dependency 'numo-narray'
+  spec.add_runtime_dependency 'cmath', '>= 1.0.0'
+  spec.add_runtime_dependency 'numo-narray', '~> 0.9.1'
 
   spec.add_runtime_dependency 'mb-sound'
   spec.add_runtime_dependency 'mb-geometry'
   spec.add_runtime_dependency 'mb-math'
   spec.add_runtime_dependency 'mb-util'
+
+  spec.add_development_dependency 'pry', '~> 0.13.1'
+  spec.add_development_dependency 'pry-byebug', '~> 3.9.0'
+  spec.add_development_dependency 'pry-doc', '~> 1.1.0'
+  spec.add_development_dependency 'rspec', '~> 3.10.0'
+  spec.add_development_dependency 'simplecov', '~> 0.21.2'
 end
