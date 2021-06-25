@@ -1,5 +1,7 @@
 # mb-surround
 
+[![Tests](https://github.com/mike-bourgeous/mb-surround/actions/workflows/test.yml/badge.svg)](https://github.com/mike-bourgeous/mb-surround/actions/workflows/test.yml)
+
 Ruby code for encoding, decoding, and processing positional audio in various
 forms.  This is a companion library to an [educational video series I'm making
 about sound][0].
