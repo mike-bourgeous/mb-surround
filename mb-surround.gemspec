@@ -30,10 +30,10 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'cmath', '>= 1.0.0'
   spec.add_runtime_dependency 'numo-narray', '~> 0.9.1'
 
-  spec.add_runtime_dependency 'mb-sound'
-  spec.add_runtime_dependency 'mb-geometry'
-  spec.add_runtime_dependency 'mb-math'
-  spec.add_runtime_dependency 'mb-util'
+  spec.add_runtime_dependency 'mb-sound', '>= 0.3.0.usegit'
+  spec.add_runtime_dependency 'mb-geometry', '>= 0.0.2.usegit'
+  spec.add_runtime_dependency 'mb-math', '>= 0.0.3.usegit'
+  spec.add_runtime_dependency 'mb-util', '>= 0.1.0.usegit'
 
   spec.add_development_dependency 'pry', '~> 0.13.1'
   spec.add_development_dependency 'pry-byebug', '~> 3.9.0'
