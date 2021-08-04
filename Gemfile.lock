@@ -10,9 +10,9 @@ GIT
 
 GIT
   remote: https://github.com/mike-bourgeous/mb-math.git
-  revision: f461cbf8ae563675abaf4a2fe0dfe8d97e37d8e3
+  revision: e182bca71f4eb4f98b341545df017bab7e2ea4ad
   specs:
-    mb-math (0.0.3.usegit)
+    mb-math (0.1.4.1.usegit)
       cmath (~> 1.0.0)
       mb-util (>= 0.1.0.usegit)
       numo-narray (~> 0.9.1)
@@ -27,21 +27,21 @@ GIT
 
 GIT
   remote: https://github.com/mike-bourgeous/mb-sound.git
-  revision: 12acf1fcbc626a6b32255204ffe375caf063e4e3
+  revision: d5d82db5bf6cb37bb7e7356b2b025e73b70d7c4e
   specs:
-    mb-sound (0.3.0.usegit)
+    mb-sound (0.3.3.usegit)
       cmath (~> 1.0.0)
-      mb-math (>= 0.0.3.usegit)
-      mb-util (>= 0.1.1.usegit)
+      mb-math (>= 0.1.4.1.usegit)
+      mb-util (>= 0.1.7.1.usegit)
       midi-nibbler (~> 0.2.4)
       numo-narray (~> 0.9.1.8)
       numo-pocketfft (~> 0.2.2)
 
 GIT
   remote: https://github.com/mike-bourgeous/mb-util.git
-  revision: 511a2e636f88eb402a87a87da59c4c1edbc6821d
+  revision: 5616cc4ce6218b5c541242ac47b0c99a30952a6c
   specs:
-    mb-util (0.1.1.usegit)
+    mb-util (0.1.7.1.usegit)
 
 PATH
   remote: .
@@ -49,9 +49,10 @@ PATH
     mb-surround (0.0.1.usegit)
       cmath (>= 1.0.0)
       mb-geometry (>= 0.0.2.usegit)
-      mb-math (>= 0.0.3.usegit)
-      mb-sound (>= 0.3.0.usegit)
-      mb-util (>= 0.1.0.usegit)
+      mb-math (>= 0.1.4.1.usegit)
+      mb-sound (>= 0.3.3.usegit)
+      mb-sound-jackffi (>= 0.0.15.usegit)
+      mb-util (>= 0.1.7.1.usegit)
       numo-narray (~> 0.9.1)
 
 GEM
@@ -82,7 +83,7 @@ GEM
     pry-doc (1.1.0)
       pry (~> 0.11)
       yard (~> 0.9.11)
-    rake (13.0.3)
+    rake (13.0.6)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -114,7 +115,7 @@ DEPENDENCIES
   mb-geometry!
   mb-math!
   mb-sound!
-  mb-sound-jackffi (>= 0.0.15.usegit)!
+  mb-sound-jackffi!
   mb-surround!
   mb-util!
   pry (~> 0.13.1)
