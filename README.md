@@ -9,6 +9,10 @@ about sound][0].
 This relies on [mb-sound][1] and [mb-geometry][2], and you might also be
 interested in [mb-sound-jackffi][3], [mb-math][4], and [mb-util][5].
 
+## License
+
+All code in this repository is licensed under the AGPLv3, unless otherwise specified in an individual file.
+
 ## Installation
 
 Follow the installation instructions for [mb-sound][1], then repeat for this
