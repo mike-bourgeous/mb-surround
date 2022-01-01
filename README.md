@@ -11,7 +11,8 @@ interested in [mb-sound-jackffi][3], [mb-math][4], and [mb-util][5].
 
 ## License
 
-All code in this repository is licensed under the AGPLv3, unless otherwise specified in an individual file.
+All code in this repository is &copy;2021-2022 Mike Bourgeous and licensed
+under the AGPLv3, unless otherwise specified in an individual file.
 
 ## Installation
 
